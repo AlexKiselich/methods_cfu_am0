@@ -6,7 +6,7 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greeting
-    puts "Hello there!"
+ "Hello there!"
 end
 
 response1 = greeting
@@ -28,7 +28,7 @@ puts response2
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 def custom_greeting(name)
-    puts "Hello there #{name}!"
+     "Hello there #{name}!"
 end
 
 response1 = custom_greeting("Alex") 
@@ -47,7 +47,7 @@ puts response2
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 def greet_person(first, middle, last)
-    puts "Hello #{first} #{middle} #{last}"
+     "Hello #{first} #{middle} #{last}"
 end
 
 say_what = greet_person("Alex", "Jay", "Kiselich")
@@ -66,10 +66,10 @@ puts say_what2
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
 def square(num)
-  Math.sqrt(num)
+  num * num
 end
 
-answer = square(6)
+answer = square(5)
 
 puts "The return value is #{answer}"
 
